@@ -71,8 +71,7 @@ This notebook:
 ### ✔ Scrapes latitude and longitude 
 - area wise
 - from google maps
-- Cuisine distribution graphs  
-- for the purpose of representing the location of the area on map in the dash board
+- for the purpose of representing the location of the resp. area in the dash board
 - and stores them in the same csv file 
 
 ---
