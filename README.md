@@ -1,6 +1,5 @@
-# Bangalore Restaurants Analysis (Zomato)  
-**Course / Project:** Data Curations and Visualisations / Course Project  
-**Author:** Sree Hasini K 
+# BiteMetrics - A Restraunt Data Study  
+**Author:** Ayush Kanojiya
 **Period:** Aug 2025 – Nov 2025
 
 ---
@@ -17,7 +16,7 @@ We performed end-to-end steps: data ingestion, cleaning, feature engineering, ex
 ---
 
 ## Repository structure 
-The ZIP file contains the following two notebooks:
+The repo contains 3 python notebooks and a csv file.
 
 - **No additional scripts** or folders are required.
 - The dataset file (e.g., `zomato_bangalore.csv`) should be placed in the same directory as the notebooks.
@@ -65,6 +64,19 @@ This notebook handles:
 
 ---
 
+## 📊 2. latlon.ipynb
+
+This notebook:
+
+### ✔ Scrapes latitude and longitude 
+- area wise
+- from google maps
+- Cuisine distribution graphs  
+- for the purpose of representing the location of the area on map in the dash board
+- and stores them in the same csv file 
+
+---
+
 ## 📊 2. restaurants_dashboard.ipynb
 
 This notebook contains:
@@ -84,10 +96,11 @@ This notebook provides an **exploratory dashboard-style interface** to help unde
 
 ---
 
+
 ## 🚀 How to Run the Project
 
 ### 1. Install required Python libraries
-pip install pandas numpy matplotlib seaborn plotly Dash
+pip install pandas numpy matplotlib seaborn plotly Dash selenium webdriver_manager urllib re
 ### 2. Open the notebooks
 Use Jupyter Notebook or JupyterLab:
 
@@ -113,14 +126,15 @@ Place `zomato_bangalore.csv` in the same folder.
 
 ## 📬 Contact
 
-**Sree Hasini K**  
-Email: [sreehasini41@gmail.com](mailto:sreehasini41@gmail.com)  
-LinkedIn: https://www.linkedin.com/in/sree-hasini-k-447320374
+**Ayush Kanojiya**  
+Email: ayushkanojiyaofficial2410@gmail.com 
+LinkedIn: linkedin.com/in/ayush-kanojiya-462981313
 
 ---
 
 ## 📄 License
 This project is for academic and learning purposes.  
 Dataset belongs to Zomato or the respective source.
+Latitudes and longitudes are scraped from Google maps for educational purspose.
 
 
